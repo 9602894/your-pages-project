@@ -1,0 +1,10 @@
+name = "your-text-storage-system"
+compatibility_date = "2023-10-01"
+
+[env.production]
+pages_build_output_dir = "public"
+
+[[kv_namespaces]]
+binding = "FILES"
+id = "your-kv-namespace-id"  # 替换为你的KV命名空间ID
+preview_id = "your-kv-namespace-preview-id"  # 替换为预览环境的KV命名空间ID
